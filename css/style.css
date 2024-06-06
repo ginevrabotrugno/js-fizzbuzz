@@ -21,19 +21,20 @@ header {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .square {
     background-color: var(--blue);
-    position: relative;
-    
-
-    /* debug */
-    width: 100px;
-    height: 100px;
-    border: solid 1px white;
+    position: relative;    
+    width: calc((100% / 7) - 20px);
+    aspect-ratio: 1 / 1;   
 
 }
 
