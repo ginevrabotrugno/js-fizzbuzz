@@ -24,11 +24,16 @@ for (let i=1; i<=100; i++) {
 
     console.log(numero);
 
+    // Crea un container nel DOM
     const box = document.createElement("div");
 
+    // aggiungi classe al container 
+    box.classList.add("square");
+
+    // aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
     document.querySelector(".container").appendChild(box);
 
-    box.innerText = numero;
+    box.innerHTML = `<span>${numero}</span>`;
 
 }
 

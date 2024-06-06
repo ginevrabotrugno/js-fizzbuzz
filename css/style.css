@@ -23,8 +23,23 @@ header {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.square {
+    background-color: var(--blue);
+    position: relative;
+    
 
     /* debug */
-    background-color: violet;
-    min-height: 200px;
+    width: 100px;
+    height: 100px;
+    border: solid 1px white;
+
+}
+
+.square span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
