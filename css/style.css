@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    background-color: #083b4c;
+    text-align: center;
+    --blue: #1389b2;
+    --green: #0cd6a1;
+    --yelllow: #ffd166;
+    --red: #f0466f;
+}
+
+header {
+    color: white;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: violet;
+    min-height: 200px;
+}
