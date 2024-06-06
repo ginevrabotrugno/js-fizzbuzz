@@ -1,3 +1,4 @@
+/* REGOLE GENERALI */
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +15,21 @@
     --red: #f0466f;
 }
 
+
+
+
+
+
+/* REGOLE HEADER */
 header {
     color: white;
     font-size: 25px;
     margin: 25px auto;
 }
 
+
+
+/* REGOLE MAIN */
 .container {
     width: 60%;
     margin: 0 auto;
@@ -33,7 +43,6 @@ header {
     position: relative;    
     width: calc((100% / 7) - 25px);
     aspect-ratio: 1 / 1;   
-
 }
 
 .square span {

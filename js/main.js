@@ -1,11 +1,8 @@
-// Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”. Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
-
-
-
 // Scrivi un programma che stampi in console i numeri da 1 a 100
 // creazione ciclo 
 for (let i=1; i<=100; i++) {
 
+    // dichiarazione variabile
     let numero = i;
 
     // Crea un container nel DOM
@@ -16,21 +13,21 @@ for (let i=1; i<=100; i++) {
     
 
     if (i % 3 === 0 && i % 5 === 0)  {  // che per i multipli di 3 stampi “Fizz” al posto del numero
-
         numero = "FizzBuzz";
 
+        // aggiungi classe per variare stile in base alla variabile
         box.classList.add("FizzBuzz")
 
     } else if (i % 5 === 0) { // per i multipli di 5 stampi “Buzz”
-        
         numero = "Buzz";
 
+        // aggiungi classe per variare stile in base alla variabile
         box.classList.add("Buzz")
 
     } else if (i % 3 === 0) { // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
-        
         numero = "Fizz";
 
+        // aggiungi classe per variare stile in base alla variabile
         box.classList.add("Fizz")
 
     } 
